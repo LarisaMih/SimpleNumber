@@ -20,7 +20,7 @@ public class ListLern {
         list.add("jhh");
         list.add(0);
         list.set(1,"t");
-        list.removeIf()
+        list.removeIf(i->i.equals(3));
         list.remove("0");
 
         System.out.println(list);
