@@ -1,6 +1,6 @@
 public interface Sum {
-    static int sum(int x, int y){
-
+    static int sum(int x, int y)
+    {
         return x + y;
     }
 
@@ -8,10 +8,7 @@ public interface Sum {
 
         return x + y;
     }
-    static int sum(int x, int y, int z){
-
-        return x + y + z;
-    }
+     int sum(int x, int y, int z);
 
     int q();
 

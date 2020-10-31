@@ -2,7 +2,7 @@ package Wether;
 
 public class Wether {
 
-    String a;
+  public static   String a="дождь";
 
 
 
